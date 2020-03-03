@@ -1,0 +1,19 @@
+<html>
+<head>
+<script type="text/javascript">
+    function validator(){
+      if(document.yuvisForm.thebox.checked)
+        alert("Yes its checked!")
+      else
+        alert("No its not checked!")
+    }
+</script>
+</head>
+<body>
+    <form name="yuvisForm">
+        <input type ="checkbox" name="thebox" />
+        <input type= "button" value = "Click me!" onClick="validator()" />
+    </form>
+
+</body>
+</html>
